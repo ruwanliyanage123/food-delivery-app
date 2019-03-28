@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "210052879809",
+    "firebase_url": "https://siyapathaeats.firebaseio.com",
+    "project_id": "siyapathaeats",
+    "storage_bucket": "siyapathaeats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210052879809:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210052879809-6k5lnjba32226tkn688v4e7s1r9iuv9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbxzym6lKBfwkeUyVuf1jnvFbLMTwjTN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
