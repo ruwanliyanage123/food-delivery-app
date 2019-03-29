@@ -67,7 +67,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 regBtn.setVisibility(View.INVISIBLE);
-                loadingProgress.setVisibility(View.INVISIBLE);
+                loadingProgress.setVisibility(View.VISIBLE);
                 final String email = userEmail.getText().toString();
                 final String password = userPassword.getText().toString();
                 final String password2 = userPassword2.getText().toString();
@@ -177,7 +177,9 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void updateUI(){
-
+        Intent homeActivity = new Intent(getApplicationContext(), HomeActivity.class);
+        startActivity(homeActivity);
+        finish();
     }
 
     //simple method to show toast message
@@ -225,3 +227,4 @@ public class RegisterActivity extends AppCompatActivity {
 
     }
 }
+
