@@ -64,6 +64,8 @@ public class LoginActivity extends AppCompatActivity {
                       
                 if(mail.isEmpty()|| password.isEmpty()){
                     showMessage("Please verify All fields");
+                    btnLogin.setVisibility(View.VISIBLE);
+                    //loginProgress.setVisibility(View.INVISIBLE);
                 }
                 else{
                     signIn(mail, password);
@@ -106,7 +108,10 @@ public class LoginActivity extends AppCompatActivity {
                     updateUI();
                 }
                 else {
+
                     showMessage(task.getException().getMessage());
+                    btnLogin.setVisibility(View.VISIBLE);
+                    //loginProgress.setVisibility(View.INVISIBLE);
                 }
             }
         });
