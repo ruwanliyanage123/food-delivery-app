@@ -108,7 +108,7 @@
 
     <Button
         android:id="@+id/regButton"
-        android:layout_width="157dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
